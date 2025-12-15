@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lansing Spine & Wellness | Chiropractor in Lansing, IL</title>
+  <meta name="description" content="Lansing Spine & Wellness provides evidence-informed chiropractic care in Lansing, Illinois. Same-week appointments. Patient-first approach." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true"></span>
+        <span>Lansing Spine &amp; Wellness</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="active" href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="card hero-card">
+          <div class="kicker">Chiropractic care in Lansing, Illinois</div>
+          <h1>Move better. Hurt less. Get back to your life.</h1>
+          <p class="lead">
+            Patient-first chiropractic care focused on pain relief, mobility, and long-term habits.
+            Straightforward plans, clear explanations, and no pressure.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="contact.html">Request an appointment</a>
+            <a class="btn" href="services.html">See services</a>
+            <a class="btn" href="tel:+17085550123">Call: (708) 555-0123</a>
+          </div>
+
+          <hr class="sep" />
+
+          <div class="split">
+            <div class="padded card" style="background: rgba(255,255,255,.03); box-shadow:none;">
+              <h3>What we treat</h3>
+              <ul class="list">
+                <li>Low back &amp; neck pain</li>
+                <li>Headaches &amp; tension</li>
+                <li>Shoulder / hip discomfort</li>
+                <li>Desk posture &amp; mobility issues</li>
+              </ul>
+            </div>
+            <div class="padded card" style="background: rgba(255,255,255,.03); box-shadow:none;">
+              <h3>Our approach</h3>
+              <ul class="list">
+                <li>Evidence-informed care</li>
+                <li>Clear plan + home exercises</li>
+                <li>Comfortable, calm environment</li>
+                <li>Goals measured over time</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card side-card">
+          <h3>Quick info</h3>
+          <div class="badge"><span class="dot" aria-hidden="true"></span><strong>Same-week availability</strong></div>
+          <div class="badge"><span class="dot blue" aria-hidden="true"></span><strong>Evening appointments</strong> (limited)</div>
+          <div class="badge"><span class="dot" aria-hidden="true"></span><strong>New patients welcome</strong></div>
+
+          <hr class="sep" />
+
+          <h3>Hours</h3>
+          <p class="note">
+            Mon–Thu: 10a–6p<br />
+            Fri: 10a–2p<br />
+            Sat: By appointment<br />
+            Sun: Closed
+          </p>
+
+          <hr class="sep" />
+
+          <h3>Location</h3>
+          <p class="note">
+            123 Ridge Rd, Lansing, IL 60438<br />
+            (Near Torrence Ave)
+          </p>
+
+          <a class="btn primary" href="contact.html">Get directions &amp; contact</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-3">
+        <div class="card feature">
+          <div class="kicker">Step 1</div>
+          <h3>Assessment</h3>
+          <p>We listen first. You’ll get a clear explanation of what we’re seeing and why it matters.</p>
+        </div>
+        <div class="card feature">
+          <div class="kicker">Step 2</div>
+          <h3>Care plan</h3>
+          <p>Simple plan based on your goals—pain relief, mobility, and staying active.</p>
+        </div>
+        <div class="card feature">
+          <div class="kicker">Step 3</div>
+          <h3>Maintenance</h3>
+          <p>When you’re ready, we help you keep progress with routines that fit real life.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card padded">
+        <h2 style="margin:0 0 6px;">New patient special</h2>
+        <p class="note" style="margin-top:0;">
+          Mention this website for a discounted first visit (exam + report of findings).
+          <strong>Limited-time offer.</strong>
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="contact.html">Claim offer</a>
+          <a class="btn" href="services.html">What’s included?</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="card padded" style="background: rgba(255,255,255,.02); box-shadow:none;">
+        <strong>Lansing Spine &amp; Wellness</strong> · Lansing, IL ·
+        <a href="tel:+17085550123">(708) 555-0123</a> ·
+        <a href="contact.html">Contact</a>
+        <div style="margin-top:10px;">
+          <span class="note">Disclaimer: This is a demo site for portfolio use. Not medical advice.</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

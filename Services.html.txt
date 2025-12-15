@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services | Lansing Spine & Wellness</title>
+  <meta name="description" content="Services offered by Lansing Spine & Wellness in Lansing, IL." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true"></span>
+        <span>Lansing Spine &amp; Wellness</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card hero-card">
+        <div class="kicker">Services</div>
+        <h1>Care that’s clear, practical, and goal-driven.</h1>
+        <p class="lead">
+          We focus on reducing pain, improving mobility, and helping you build habits that keep you moving.
+          You’ll always know what we’re doing and why.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="contact.html">Request an appointment</a>
+          <a class="btn" href="tel:+17085550123">Call: (708) 555-0123</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-3">
+        <div class="card feature">
+          <h3>Chiropractic adjustments</h3>
+          <p>Gentle, targeted adjustments tailored to your comfort and condition.</p>
+        </div>
+        <div class="card feature">
+          <h3>Posture &amp; mobility</h3>
+          <p>Movement screens plus simple exercises you can actually stick to.</p>
+        </div>
+        <div class="card feature">
+          <h3>Soft tissue support</h3>
+          <p>Hands-on work and recovery strategies to reduce tension and stiffness.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card padded">
+        <h2 style="margin-top:0;">What a first visit looks like</h2>
+        <ol class="list">
+          <li><strong>Intake + history:</strong> what’s happening and what you want to change</li>
+          <li><strong>Assessment:</strong> range of motion, posture, movement checks</li>
+          <li><strong>Plan:</strong> recommended frequency + home routine</li>
+          <li><strong>Care:</strong> if appropriate, treatment begins the same day</li>
+        </ol>
+        <p class="note">We’ll refer out if your symptoms suggest you need a different type of care.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="split">
+        <div class="card padded">
+          <h3 style="margin-top:0;">Conditions we commonly see</h3>
+          <ul class="list">
+            <li>Low back pain</li>
+            <li>Neck pain</li>
+            <li>Tension headaches</li>
+            <li>Work-from-home posture issues</li>
+            <li>Sports and overuse discomfort</li>
+          </ul>
+        </div>
+        <div class="card padded">
+          <h3 style="margin-top:0;">What we don’t do</h3>
+          <ul class="list">
+            <li>No pressure sales</li>
+            <li>No mystery “package” requirements</li>
+            <li>No confusing jargon</li>
+            <li>No “one-size-fits-all” plans</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="card padded" style="background: rgba(255,255,255,.02); box-shadow:none;">
+        <strong>Lansing Spine &amp; Wellness</strong> · Lansing, IL ·
+        <a href="contact.html">Contact</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

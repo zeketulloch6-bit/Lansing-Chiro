@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Lansing Spine & Wellness</title>
+  <meta name="description" content="Contact Lansing Spine & Wellness in Lansing, IL." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true"></span>
+        <span>Lansing Spine &amp; Wellness</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card hero-card">
+        <div class="kicker">Contact</div>
+        <h1>Request an appointment</h1>
+        <p class="lead">
+          Send a message and we’ll get back to you within 1 business day.
+          Prefer calling? Use the number below.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="tel:+17085550123">Call: (708) 555-0123</a>
+          <a class="btn" href="mailto:hello@lansingspinewellness.com">Email us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="split">
+        <div class="card padded">
+          <h3 style="margin-top:0;">Message form (demo)</h3>
+          <p class="note">This form is for portfolio/demo use. It won’t actually send without a backend.</p>
+
+          <form class="form" action="#" method="post">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" placeholder="Your name" />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" placeholder="(708) 555-____" />
+            </div>
+            <div>
+              <label for="message">What’s going on?</label>
+              <textarea id="message" name="message" placeholder="Briefly describe symptoms and timing"></textarea>
+            </div>
+            <button class="btn primary" type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div class="card padded">
+          <h3 style="margin-top:0;">Clinic info</h3>
+          <p class="note">
+            123 Ridge Rd, Lansing, IL 60438<br />
+            Mon–Thu: 10a–6p<br />
+            Fri: 10a–2p<br />
+            Sat: By appointment
+          </p>
+
+          <hr class="sep" />
+
+          <h3>Directions</h3>
+          <p class="note">
+            Near Torrence Ave. Free parking available.
+          </p>
+
+          <a class="btn" href="https://maps.google.com/?q=123%20Ridge%20Rd%2C%20Lansing%2C%20IL%2060438" target="_blank" rel="noopener">
+            Open in Google Maps
+          </a>
+
+          <hr class="sep" />
+
+          <p class="note">
+            <strong>Emergency?</strong> If you have severe symptoms, numbness, weakness, or chest pain, call 911.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="card padded" style="background: rgba(255,255,255,.02); box-shadow:none;">
+        <strong>Lansing Spine &amp; Wellness</strong> · Lansing, IL ·
+        <a href="services.html">Services</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
