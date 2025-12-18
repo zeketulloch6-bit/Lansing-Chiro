@@ -1,3 +1,15 @@
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9fafb;
+  margin: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
 :root{
   --bg:#0b1220;
   --panel:#0f1a33;
@@ -157,3 +169,4 @@ label{font-weight:700; color:var(--muted); font-size:.92rem}
   .grid-3{grid-template-columns: 1fr}
   .split{grid-template-columns: 1fr}
 }
+
