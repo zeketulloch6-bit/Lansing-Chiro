@@ -25,6 +25,28 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
+  .hero {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #1e4ed8;
+}
+
 }
 :root{
   --bg:#0b1220;
@@ -185,5 +207,9 @@ label{font-weight:700; color:var(--muted); font-size:.92rem}
   .grid-3{grid-template-columns: 1fr}
   .split{grid-template-columns: 1fr}
 }
+section {
+  margin-bottom: 3rem;
+}
+
 
 
